@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
 /*
 Import Moduli
 */
-import { AppRoutingModule } from "./app-routing.module";
+import { RoutingModule } from './routing/routing.module';
 
 /*
 Import Component
@@ -33,7 +33,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    RoutingModule
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]
