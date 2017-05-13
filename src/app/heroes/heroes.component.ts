@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
 
-import { Hero } from "./hero-detail/hero";
-import { HeroService } from '../services/hero-service.service';
+import { Hero } from "./class/hero";
+import { HeroService } from './services/hero-service.service';
 
 @Component({
   selector: 'heroes',
